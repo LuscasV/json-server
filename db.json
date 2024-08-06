@@ -1,80 +1,57 @@
 {
-  "clientes": [
+  "projects": [
     {
-      "id": 1,
-      "nome": "João da Silva",
-      "telefone": "123456789",
-      "endereco": "Rua dos Animais, 123"
+      "id": "39b1",
+      "name": "Teste",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 600,
+      "services": [
+        {
+          "name": "Contratar dev",
+          "cost": "500",
+          "description": "vai criar a função de envio de e-mails",
+          "id": "487af175-fff3-4140-91f2-47e5be7de9ae"
+        },
+        {
+          "name": "Novo serviço",
+          "cost": "100",
+          "description": "teste",
+          "id": "afb11bc7-f001-43a5-9bef-5a7237dc965a"
+        }
+      ]
     },
     {
-      "id": 2,
-      "nome": "Maria Souza",
-      "telefone": "987654321",
-      "endereco": "Avenida dos Pets, 456"
+      "id": "4a0a",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "name": "dwadawwd",
+      "budget": "23333",
+      "cost": 0,
+      "services": []
     }
   ],
-  "animais": [
+  "categories": [
     {
-      "id": 1,
-      "nome": "Rex",
-      "especie": "Cachorro",
-      "raca": "Labrador",
-      "idade": 3,
-      "cliente_id": 1
+      "id": "1",
+      "name": "Infra"
     },
     {
-      "id": 2,
-      "nome": "Mimi",
-      "especie": "Gato",
-      "raca": "Siamês",
-      "idade": 2,
-      "cliente_id": 1
+      "id": "2",
+      "name": "Desenvolvimento"
     },
     {
-      "id": 3,
-      "nome": "Lola",
-      "especie": "Cachorro",
-      "raca": "Poodle",
-      "idade": 5,
-      "cliente_id": 2
+      "id": "3",
+      "name": "Design"
     },
     {
-      "id": 4,
-      "nome": "Nina",
-      "especie": "Gato",
-      "raca": "Persa",
-      "idade": 1,
-      "cliente_id": 2
-    }
-  ],
-  "produtos": [
-    {
-      "id": 1,
-      "nome": "Ração para cães",
-      "marca": "Premier",
-      "preco": 50.99,
-      "quantidade_estoque": 100
-    },
-    {
-      "id": 2,
-      "nome": "Areia sanitária para gatos",
-      "marca": "Chalesco",
-      "preco": 25.99,
-      "quantidade_estoque": 50
-    }
-  ],
-  "servicos": [
-    {
-      "id": 1,
-      "nome": "Banho e tosa",
-      "preco": 80.0,
-      "duracao_minutos": 120
-    },
-    {
-      "id": 2,
-      "nome": "Consulta veterinária",
-      "preco": 120.0,
-      "duracao_minutos": 60
+      "id": "4",
+      "name": "Planejamento"
     }
   ]
 }
